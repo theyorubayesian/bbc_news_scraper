@@ -1,0 +1,97 @@
+ARTICLE_COUNT_SPAN: "bbc-f8df6t e19602dz4"
+HEADLINE_SPAN_CLASS_A: 
+  - "bbc-csfh25 e1p3vdyi0"
+  - "bbc-13tuc7f e1p3vdyi0"
+HEADLINE_SPAN_CLASS_B: 
+  - "ewk8wmc0 bbc-12j4rku eglt09e1"
+  - "ewk8wmc0 bbc-1xtm48o eglt09e1"
+STORY_DIV_CLASS: "bbc-19j92fr ebmt73l0"
+TOPIC_LIST_CLASS: 
+  - "bbc-ekyvwt e2o6ii40"
+  - "bbc-1g3396x e2o6ii40"
+
+HOMEPAGE:
+  am: https://www.bbc.com/amharic
+  ga: https://www.bbc.com/gahuza
+  ha: https://www.bbc.com/hausa
+  ig: https://www.bbc.com/igbo
+  om: https://www.bbc.com/afaanoromoo
+  so: https://www.bbc.com/somali
+  sw: https://www.bbc.com/swahili
+  ti: https://www.bbc.com/tigrinya
+  yo: https://www.bbc.com/yoruba
+
+CATEGORY_URLS:
+  am:
+    CATEGORY_ONE: https://www.bbc.com/amharic/topics/c7zp57r92v5t
+    MOST_POPULAR: https://www.bbc.com/amharic/popular/read
+    VIDEO: https://www.bbc.com/amharic/media/video
+  ga:
+    AMASHUSHO: https://www.bbc.com/gahuza/media/video
+    IBIYAGA: https://www.bbc.com/gahuza/topics/c06gq67y3w5t
+    AFRIKA: https://www.bbc.com/gahuza/topics/c06gq67y3w5t
+    MPUZAMAHANGA: https://www.bbc.com/gahuza/topics/c9dvd93jjkkt
+    IMIKINO: https://www.bbc.com/gahuza/topics/c5qvpq0jzy7t
+    UBURAYI: https://www.bbc.com/gahuza/topics/c340q41gg6vt
+    UBURUSIYA: https://www.bbc.com/gahuza/topics/cnq68qdw4kyt
+    UKRAINE: https://www.bbc.com/gahuza/topics/cr50y5d512xt
+    UBUMUNAKO: https://www.bbc.com/gahuza/topics/cvjp2jy1pj0t
+    AZIYA: https://www.bbc.com/gahuza/topics/cdr56rz2p4vt
+    AMAGURU: https://www.bbc.com/gahuza/topics/cz74k72rq9pt
+    UBUZIMA: https://www.bbc.com/gahuza/topics/cnq68qp4kxjt
+    INDYO: https://www.bbc.com/gahuza/topics/cnq68qpjpvgt
+    YEPFO: https://www.bbc.com/gahuza/topics/cyx5kxdz6vgt
+    UMURYANGO: https://www.bbc.com/gahuza/topics/cvjp2jy8y32t
+    INKINGO: https://www.bbc.com/gahuza/topics/c340q41dg2nt
+    AFURIKA: https://www.bbc.com/gahuza/topics/c06gq67yrk1t
+    IKORESHWA: https://www.bbc.com/gahuza/topics/cr50y5gpkykt
+    COLOMBIA: https://www.bbc.com/gahuza/topics/c340q4vk27jt
+    KONGO: https://www.bbc.com/gahuza/topics/c8y94y03z72t
+    POLITIKE: https://www.bbc.com/gahuza/topics/c5qvpq5ppqpt
+    ABAGORE: https://www.bbc.com/gahuza/topics/c2dwqd7p2dyt
+    AMERIKA: https://www.bbc.com/gahuza/topics/c2dwqd0k456t
+    AMATEGEKO: https://www.bbc.com/gahuza/topics/c06gq6n0q88t
+    RWANDA: https://www.bbc.com/gahuza/topics/c340q4v3942t
+  ha:
+    WASANNI: https://www.bbc.com/hausa/topics/cz74kjgv220t
+    NISHADI: https://www.bbc.com/hausa/topics/cg726kz37wdt
+    RAHOTANI: https://www.bbc.com/hausa/52140979
+    BIDIYO: https://www.bbc.com/hausa/media/video
+    MUSAMMAN: https://www.bbc.com/hausa/shirye-shirye-na-musamman-54712348
+  ig:
+    EGWURUEGWU: https://www.bbc.com/igbo/topics/cnq68k0x2vrt
+    NKIRI: https://www.bbc.com/igbo/media/video
+    EWUEWU: https://www.bbc.com/igbo/popular/read
+  om:
+    UUMMATA: https://www.bbc.com/afaanoromoo/topics/c340q45x0prt
+    AADAA: https://www.bbc.com/afaanoromoo/topics/c5qvpqg6g93t
+    HAWAASAA: https://www.bbc.com/afaanoromoo/topics/ckdxnd85y40t
+    ITOOPHIYAA: https://www.bbc.com/afaanoromoo/topics/c2dwqdy81y1t
+    KORONAAVAAYIRAS: https://www.bbc.com/afaanoromoo/topics/cmnqydyjyy4t
+    FAYYAA: https://www.bbc.com/afaanoromoo/topics/cqywjyx745xt
+    QUUNNAMTII: https://www.bbc.com/afaanoromoo/topics/c95y35d83qrt
+    KEENIYA: https://www.bbc.com/afaanoromoo/topics/c8y94yzyv5vt
+    DUBARTOOTA: https://www.bbc.com/afaanoromoo/topics/c8y94yq185dt
+    VIIDIYO: https://www.bbc.com/afaanoromoo/media/video
+    JAJJABOO: https://www.bbc.com/afaanoromoo/popular/read
+    HIYYUMMAA: https://www.bbc.com/afaanoromoo/topics/cyx5kx656zrt
+    CHAAYIINAA: https://www.bbc.com/afaanoromoo/topics/cvjp2jg4v4qt
+  so:
+    GANACSI: https://www.bbc.com/somali/topics/c2dwqd32v4yt
+    CIYAARAHA: https://www.bbc.com/somali/topics/cpzd4zj1pn2t
+    AQOON-GUUD: https://www.bbc.com/somali/topics/cg8382rk20xt
+  sw:
+    MICHEZO: https://www.bbc.com/swahili/topics/ckdxndddjkxt
+    VIDEO: https://www.bbc.com/swahili/media/video
+  ti:
+    CATEGORY_ONE: https://www.bbc.com/tigrinya/topics/cnq68nnxxr2t
+    CATEGORY_TWO: https://www.bbc.com/tigrinya/topics/c1gdqrg28zxt
+    CATEGORY_THREE: https://www.bbc.com/tigrinya/topics/cr50y6516jnt
+    CATEGORY_FOUR: https://www.bbc.com/tigrinya/topics/cr50y664ww4t
+    CATEGORY_FIVE: https://www.bbc.com/tigrinya/topics/c7zp5gzgqg0t
+    POPULAR: https://www.bbc.com/tigrinya/popular/read
+  yo:
+    IDARAYA: https://www.bbc.com/yoruba/topics/c340q0y3p5kt
+    GBAJUMO: https://www.bbc.com/yoruba/popular/read
+    FIDIO: https://www.bbc.com/yoruba/media/video
+  
