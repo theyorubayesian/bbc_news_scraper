@@ -6,7 +6,7 @@ This repository is based on [@keleog](https://github.com/keleog/)'s [BBC Pidgin 
 | Afaan Oromoo | om | https://www.bbc.com/afaanoromoo |
 | Afrique | af | https://www.bbc.com/afrique |
 | Amharic | am | https://www.bbc.com/amharic |
-| Gahuza | ig | https://www.bbc.com/gahuza |
+| Gahuza | ga | https://www.bbc.com/gahuza |
 | Hausa | ha | https://www.bbc.com/hausa |
 | Igbo | ig | https://www.bbc.com/igbo |
 | Somali | so | https://www.bbc.com/somali |
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ## Using the scraper
 - To scrape all articles from all categories
 ```
-python scraper.py --no_of_articles=-1 --language <language-code>--output_file_name=data/<filename.tsv> --categories=all --time_delay=True --cleanup
+python scraper.py --no_of_articles=-1 --language <language-code> --output_file_name=data/<filename.tsv> --categories=all --time_delay=True --cleanup
 ```
 - To scrape a finite amount of articles from all categories
 ```
