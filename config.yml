@@ -2,9 +2,11 @@ ARTICLE_COUNT_SPAN: "bbc-f8df6t e19602dz4"
 HEADLINE_SPAN_CLASS_A: 
   - "bbc-csfh25 e1p3vdyi0"
   - "bbc-13tuc7f e1p3vdyi0"
+  - "bbc-e0ctyc e1p3vdyi0"
 HEADLINE_SPAN_CLASS_B: 
   - "ewk8wmc0 bbc-12j4rku eglt09e1"
   - "ewk8wmc0 bbc-1xtm48o eglt09e1"
+  - "ewk8wmc0 bbc-1sb800u eglt09e1"
 STORY_DIV_CLASS: "bbc-19j92fr ebmt73l0"
 TOPIC_LIST_CLASS: 
   - "bbc-ekyvwt e2o6ii40"
@@ -22,6 +24,16 @@ HOMEPAGE:
   yo: https://www.bbc.com/yoruba
 
 CATEGORY_URLS:
+  af:
+    TECHNOLOGIE: https://www.bbc.com/afrique/topics/cr50y76xvwzt
+    ECONOMIE: https://www.bbc.com/afrique/topics/cnq687nr9v1t
+    CULTURE: https://www.bbc.com/afrique/topics/cnq687nrrw8t
+    VIDEOS: https://www.bbc.com/afrique/media/video
+    SCIENCE: https://www.bbc.com/afrique/topics/cdr561vr57gt
+    BIEN_ETRE: https://www.bbc.com/afrique/topics/c0vmyy90q8zt
+    SANTE: https://www.bbc.com/afrique/topics/c06gq9jxz3rt
+    MONDE: https://www.bbc.com/afrique/topics/cvqxn21vx11t
+    AFRIQUE: https://www.bbc.com/afrique/topics/cvqxn2k7kv7t
   am:
     CATEGORY_ONE: https://www.bbc.com/amharic/topics/c7zp57r92v5t
     MOST_POPULAR: https://www.bbc.com/amharic/popular/read

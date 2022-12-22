@@ -8,6 +8,26 @@ def clean_string(x: str) -> str:
     )
 
 
+def _is_valid_url_af(href: str) -> bool:
+    href = href.replace("https://www.bbc.com", "")
+
+    if href.startswith("/afrique/articles/") or href.startswith("/afrique/region/"):
+        return True
+    elif href[-1].isdigit() and (
+        href.startswith("/afrique/monde-")
+        or href.startswith("/afrique/region-")
+        or href.startswith("/afrique/media-")
+        or href.startswith("/afrique")
+    ):
+        if not (
+            href.startswith("/afrique/topics")
+            or href.startswith("/afrique/bbc_afrique_radio")
+        ):
+            return True
+    else:
+        return False
+
+
 def _is_valid_url_am(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
@@ -164,6 +184,7 @@ def _is_valid_url_yo(href: str) -> bool:
 
 
 is_valid_url_factory = {
+    "af": _is_valid_url_af,
     "am": _is_valid_url_am,
     "ga": _is_valid_url_ga,
     "ha": _is_valid_url_ha,

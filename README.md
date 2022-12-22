@@ -3,7 +3,8 @@ This repository is based on [@keleog](https://github.com/keleog/)'s [BBC Pidgin 
 
 | Language | Language Code | Website |
 |---------|--------------|--------|
-|Afaan Oromoo | om | https://www.bbc.com/afaanoromoo |
+| Afaan Oromoo | om | https://www.bbc.com/afaanoromoo |
+| Afrique | af | https://www.bbc.com/afrique |
 | Amharic | am | https://www.bbc.com/amharic |
 | Gahuza | ig | https://www.bbc.com/gahuza |
 | Hausa | ha | https://www.bbc.com/hausa |
