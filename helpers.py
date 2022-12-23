@@ -8,7 +8,7 @@ def clean_string(x: str) -> str:
     )
 
 
-def _is_valid_url_af(href: str) -> bool:
+def _is_valid_url_afr(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/afrique/articles/") or href.startswith("/afrique/region/"):
@@ -28,7 +28,7 @@ def _is_valid_url_af(href: str) -> bool:
         return False
 
 
-def _is_valid_url_am(href: str) -> bool:
+def _is_valid_url_amh(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/amharic/articles/"):
@@ -46,7 +46,7 @@ def _is_valid_url_am(href: str) -> bool:
         return False
 
 
-def _is_valid_url_ga(href: str) -> bool:
+def _is_valid_url_gah(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/gahuza/articles/"):
@@ -63,7 +63,7 @@ def _is_valid_url_ga(href: str) -> bool:
         return False
 
 
-def _is_valid_url_ha(href: str) -> bool:
+def _is_valid_url_hau(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/hausa/articles/"):
@@ -83,7 +83,7 @@ def _is_valid_url_ha(href: str) -> bool:
         return False
 
 
-def _is_valid_url_ig(href: str) -> bool:
+def _is_valid_url_igb(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/igbo/articles/"):
@@ -100,7 +100,7 @@ def _is_valid_url_ig(href: str) -> bool:
         return False
 
 
-def _is_valid_url_om(href: str) -> bool:
+def _is_valid_url_afa(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
 
     if href.startswith("/afaanoromoo/articles/"):
@@ -115,7 +115,7 @@ def _is_valid_url_om(href: str) -> bool:
         return False
 
 
-def _is_valid_url_so(href: str) -> bool:
+def _is_valid_url_som(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
     
     if href.startswith("/somali/articles/"):
@@ -134,7 +134,7 @@ def _is_valid_url_so(href: str) -> bool:
         return False
 
 
-def _is_valid_url_sw(href: str) -> bool:
+def _is_valid_url_swa(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
      
     if href.startswith("/swahili/articles/"):
@@ -154,7 +154,7 @@ def _is_valid_url_sw(href: str) -> bool:
         return False
 
 
-def _is_valid_url_ti(href: str) -> bool:
+def _is_valid_url_tig(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
      
     if href.startswith("/tigrinya/articles/"):
@@ -168,7 +168,7 @@ def _is_valid_url_ti(href: str) -> bool:
     else:
         return False
     
-def _is_valid_url_yo(href: str) -> bool:
+def _is_valid_url_yor(href: str) -> bool:
     href = href.replace("https://www.bbc.com", "")
      
     if href.startswith("/yoruba/articles/"):
@@ -182,16 +182,33 @@ def _is_valid_url_yo(href: str) -> bool:
     else:
         return False
 
+def _is_valid_url_pid(href: str) -> bool:
+    href = href.replace("https://www.bbc.com", "")
+     
+    if href.startswith("/pidgin/articles/"):
+        return True
+    elif href[-1].isdigit() and (
+        href.startswith("/pidgin/media")
+        or href.startswith("/pidgin/popular")
+        or href.startswith("/pidgin/tori")
+        or href.startswith("/pidgin")
+    ):
+        if not href.startswith("/pidgin/topics"):
+            return True
+    else:
+        return False
+
 
 is_valid_url_factory = {
-    "af": _is_valid_url_af,
-    "am": _is_valid_url_am,
-    "ga": _is_valid_url_ga,
-    "ha": _is_valid_url_ha,
-    "ig": _is_valid_url_ig,
-    "om": _is_valid_url_om,
-    "so": _is_valid_url_so,
-    "sw": _is_valid_url_sw,
-    "ti": _is_valid_url_ti,
-    "yo": _is_valid_url_yo,
+    "afr": _is_valid_url_afr,
+    "amh": _is_valid_url_amh,
+    "gah": _is_valid_url_gah,
+    "hau": _is_valid_url_hau,
+    "igb": _is_valid_url_igb,
+    "afa": _is_valid_url_afa,
+    "som": _is_valid_url_som,
+    "swa": _is_valid_url_swa,
+    "tig": _is_valid_url_tig,
+    "yor": _is_valid_url_yor,
+    "pid": _is_valid_url_pid
 }
