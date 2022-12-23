@@ -243,7 +243,7 @@ def get_topics(homepage: str, known_topic_urls: List[str], lang: str) -> Dict[st
 def write_articles(category, output_file_name, urls, no_of_articles, time_delay):
     path = output_file_name.split("/")
     output_file_name = os.path.join(path[0], f"{clean_string(category)}_{path[1]}")
-    with open(output_file_name, "w") as csv_file:
+    with open(output_file_name, "w", encoding = "utf-8") as csv_file:
         headers = ["headline", "text", "category", "url"]
         writer = csv.DictWriter(csv_file, delimiter="\t", fieldnames = headers, lineterminator='\n')
         writer.writeheader()
