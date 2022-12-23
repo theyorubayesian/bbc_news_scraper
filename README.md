@@ -3,18 +3,19 @@ This repository is based on [@keleog](https://github.com/keleog/)'s [BBC Pidgin 
 
 | Language | Language Code | Website |
 |---------|--------------|--------|
-| Afaan Oromoo | om | https://www.bbc.com/afaanoromoo |
-| Afrique | af | https://www.bbc.com/afrique |
-| Amharic | am | https://www.bbc.com/amharic |
-| Gahuza | ga | https://www.bbc.com/gahuza |
-| Hausa | ha | https://www.bbc.com/hausa |
-| Igbo | ig | https://www.bbc.com/igbo |
-| Somali | so | https://www.bbc.com/somali |
-| Swahili | sw | https://www.bbc.com/swahili |
-| Tigrinya | ti | https://www.bbc.com/tigrinya |
-| Yoruba | yo | https://www.bbc.com/yoruba |
+| Afaan Oromoo | afa | https://www.bbc.com/afaanoromoo |
+| Afrique | afr | https://www.bbc.com/afrique |
+| Amharic | amh | https://www.bbc.com/amharic |
+| Gahuza | gah | https://www.bbc.com/gahuza |
+| Hausa | hau | https://www.bbc.com/hausa |
+| Igbo | igb | https://www.bbc.com/igbo |
+| Somali | som | https://www.bbc.com/somali |
+| Swahili | swa | https://www.bbc.com/swahili |
+| Tigrinya | tig | https://www.bbc.com/tigrinya |
+| Yoruba | yor | https://www.bbc.com/yoruba |
+| Nigerian Pidgin | https://www.bbc.com/pidgin |
 
-This scraper works fine as of `21st of December, 2022`.
+This scraper works fine as of `23rd of December, 2022`.
 
 ## Setup & Installation
 - Create a virtual environment 
@@ -41,5 +42,5 @@ You can check language codes in the table above.
 The scraper output should be a `tsv` file with four columns: `heading`, `text`, `category`, `url`. See sample output in [data](data/)
 
 ## Contribution
-BBC regularly changes the HTML class attributes and structure of its website. To ensure that this scraper is maintainable over time, class attributes and other such configurations are separated into [config.yaml](config.yaml).
+BBC regularly changes the HTML class attributes and structure of its website. To ensure that this scraper is maintainable over time, class attributes and other such configurations are separated into [config.yaml](config.yml).
 Feel free to raise an issue & open a pull request if you discover a bug or want to propose an improvement.
