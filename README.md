@@ -13,7 +13,7 @@ This repository is based on [@keleog](https://github.com/keleog/)'s [BBC Pidgin 
 | Swahili | swa | https://www.bbc.com/swahili |
 | Tigrinya | tig | https://www.bbc.com/tigrinya |
 | Yoruba | yor | https://www.bbc.com/yoruba |
-| Nigerian Pidgin | https://www.bbc.com/pidgin |
+| Nigerian Pidgin | pid | https://www.bbc.com/pidgin |
 
 This scraper works fine as of `23rd of December, 2022`.
 
