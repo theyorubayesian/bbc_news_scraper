@@ -193,7 +193,10 @@ def _is_valid_url_pid(href: str) -> bool:
         or href.startswith("/pidgin/tori")
         or href.startswith("/pidgin")
     ):
-        if not href.startswith("/pidgin/topics"):
+        if not (
+            href.startswith("/pidgin/topics")
+            or href.startswith("/pidgin/bbc_pidgin_radio")
+        ):
             return True
     else:
         return False
