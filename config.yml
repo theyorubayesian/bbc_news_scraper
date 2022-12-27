@@ -13,18 +13,20 @@ TOPIC_LIST_CLASS:
   - "bbc-1g3396x e2o6ii40"
 
 HOMEPAGE:
-  am: https://www.bbc.com/amharic
-  ga: https://www.bbc.com/gahuza
-  ha: https://www.bbc.com/hausa
-  ig: https://www.bbc.com/igbo
-  om: https://www.bbc.com/afaanoromoo
-  so: https://www.bbc.com/somali
-  sw: https://www.bbc.com/swahili
-  ti: https://www.bbc.com/tigrinya
-  yo: https://www.bbc.com/yoruba
+  afr: https://www.bbc.com/afrique
+  amh: https://www.bbc.com/amharic
+  gah: https://www.bbc.com/gahuza
+  hau: https://www.bbc.com/hausa
+  igb: https://www.bbc.com/igbo
+  Afa: https://www.bbc.com/afaanoromoo
+  som: https://www.bbc.com/somali
+  swa: https://www.bbc.com/swahili
+  tig: https://www.bbc.com/tigrinya
+  yor: https://www.bbc.com/yoruba
+  pid: https://www.bbc.com/pidgin
 
 CATEGORY_URLS:
-  af:
+  afr:
     TECHNOLOGIE: https://www.bbc.com/afrique/topics/cr50y76xvwzt
     ECONOMIE: https://www.bbc.com/afrique/topics/cnq687nr9v1t
     CULTURE: https://www.bbc.com/afrique/topics/cnq687nrrw8t
@@ -34,11 +36,11 @@ CATEGORY_URLS:
     SANTE: https://www.bbc.com/afrique/topics/c06gq9jxz3rt
     MONDE: https://www.bbc.com/afrique/topics/cvqxn21vx11t
     AFRIQUE: https://www.bbc.com/afrique/topics/cvqxn2k7kv7t
-  am:
+  amh:
     CATEGORY_ONE: https://www.bbc.com/amharic/topics/c7zp57r92v5t
     MOST_POPULAR: https://www.bbc.com/amharic/popular/read
     VIDEO: https://www.bbc.com/amharic/media/video
-  ga:
+  gah:
     AMASHUSHO: https://www.bbc.com/gahuza/media/video
     IBIYAGA: https://www.bbc.com/gahuza/topics/c06gq67y3w5t
     AFRIKA: https://www.bbc.com/gahuza/topics/c06gq67y3w5t
@@ -64,17 +66,17 @@ CATEGORY_URLS:
     AMERIKA: https://www.bbc.com/gahuza/topics/c2dwqd0k456t
     AMATEGEKO: https://www.bbc.com/gahuza/topics/c06gq6n0q88t
     RWANDA: https://www.bbc.com/gahuza/topics/c340q4v3942t
-  ha:
+  hau:
     WASANNI: https://www.bbc.com/hausa/topics/cz74kjgv220t
     NISHADI: https://www.bbc.com/hausa/topics/cg726kz37wdt
     RAHOTANI: https://www.bbc.com/hausa/52140979
     BIDIYO: https://www.bbc.com/hausa/media/video
     MUSAMMAN: https://www.bbc.com/hausa/shirye-shirye-na-musamman-54712348
-  ig:
+  igb:
     EGWURUEGWU: https://www.bbc.com/igbo/topics/cnq68k0x2vrt
     NKIRI: https://www.bbc.com/igbo/media/video
     EWUEWU: https://www.bbc.com/igbo/popular/read
-  om:
+  afa:
     UUMMATA: https://www.bbc.com/afaanoromoo/topics/c340q45x0prt
     AADAA: https://www.bbc.com/afaanoromoo/topics/c5qvpqg6g93t
     HAWAASAA: https://www.bbc.com/afaanoromoo/topics/ckdxnd85y40t
@@ -88,22 +90,29 @@ CATEGORY_URLS:
     JAJJABOO: https://www.bbc.com/afaanoromoo/popular/read
     HIYYUMMAA: https://www.bbc.com/afaanoromoo/topics/cyx5kx656zrt
     CHAAYIINAA: https://www.bbc.com/afaanoromoo/topics/cvjp2jg4v4qt
-  so:
+  som:
     GANACSI: https://www.bbc.com/somali/topics/c2dwqd32v4yt
     CIYAARAHA: https://www.bbc.com/somali/topics/cpzd4zj1pn2t
-    AQOON-GUUD: https://www.bbc.com/somali/topics/cg8382rk20xt
-  sw:
+    AQOON_GUUD: https://www.bbc.com/somali/topics/cg8382rk20xt
+  swa:
     MICHEZO: https://www.bbc.com/swahili/topics/ckdxndddjkxt
     VIDEO: https://www.bbc.com/swahili/media/video
-  ti:
+  tig:
     CATEGORY_ONE: https://www.bbc.com/tigrinya/topics/cnq68nnxxr2t
     CATEGORY_TWO: https://www.bbc.com/tigrinya/topics/c1gdqrg28zxt
     CATEGORY_THREE: https://www.bbc.com/tigrinya/topics/cr50y6516jnt
     CATEGORY_FOUR: https://www.bbc.com/tigrinya/topics/cr50y664ww4t
     CATEGORY_FIVE: https://www.bbc.com/tigrinya/topics/c7zp5gzgqg0t
     POPULAR: https://www.bbc.com/tigrinya/popular/read
-  yo:
+  yor:
     IDARAYA: https://www.bbc.com/yoruba/topics/c340q0y3p5kt
     GBAJUMO: https://www.bbc.com/yoruba/popular/read
     FIDIO: https://www.bbc.com/yoruba/media/video
-  
+  pid:
+    NIGERIA: https://www.bbc.com/pidgin/topics/c2dwqd1zr92t
+    AFRICA: https://www.bbc.com/pidgin/topics/c404v061z85t
+    WORLD: https://www.bbc.com/pidgin/topics/c0823e52dd0t
+    VIDEO: https://www.bbc.com/pidgin/media/video
+    SPORT: https://www.bbc.com/pidgin/topics/cjgn7gv77vrt
+    JOLLIFICATE: https://www.bbc.com/pidgin/topics/cqywjyzk2vyt
+    SABI_WELL: https://www.bbc.com/pidgin/popular/read
